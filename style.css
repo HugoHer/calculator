@@ -19,6 +19,7 @@ div{
   color: rgb(12, 12, 12);
   font-size: 25px;
   cursor:grab;
+  font-family:  sans-serif;
 }
 
 .box__number:hover{
