@@ -22,28 +22,88 @@ div{
   font-family:  sans-serif;
 }
 
-.box__number:hover{
+.box:hover{
   background-color: aquamarine;
   
 }
 
-.box__number--c:hover{
+.box__c:hover{
   background-color: aquamarine;
 }
 
-.box__number--expo:hover{
+.box__expo:hover{
   background-color: aquamarine;
 }
 
-.box__number--por:hover{
+.box__by:hover{
   background-color: aquamarine;
 }
 
-.box__number--same:hover{
+.box__same:hover{
   background-color: aquamarine;
 }
 
-.box__number--sum:hover{
+.box__one:hover{
+  background-color: aquamarine;
+}
+
+.box__two:hover{
+  background-color: aquamarine;
+}
+
+.box__tree:hover{
+  background-color: aquamarine;
+}
+
+.box__four:hover{
+  background-color: aquamarine;
+}
+
+.box__five:hover{
+  background-color: aquamarine;
+}
+
+.box__six:hover{
+  background-color: aquamarine;
+}
+
+.box__seven:hover{
+  background-color: aquamarine;
+}
+
+.box__eight:hover{
+  background-color: aquamarine;
+}
+
+.box__nine:hover{
+  background-color: aquamarine;
+}
+
+.box__cero:hover{
+  background-color: aquamarine;
+}
+
+.box__point:hover{
+  background-color: aquamarine;
+}
+
+.box__sum:hover{
+  background-color: aquamarine;
+}
+
+.box__more:hover{
+  background-color: aquamarine;
+}
+
+.box__less:hover{
+  background-color: aquamarine;
+}
+
+.box__div:hover{
+  background-color: aquamarine;
+}
+
+.box__porcent:hover{
   background-color: aquamarine;
 }
 
@@ -57,7 +117,7 @@ div{
   border-radius: 10px 20px 30px 40px;
 }
 
-.box__number--text{
+.box__text{
 
   display: grid;
   border: 1px solid red;
@@ -86,7 +146,21 @@ div{
   border-radius: 10px 20px 30px 40px;
 }
 
-.box__number--c{
+.box__extra{
+  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-end: 2;
+  grid-row-start: 2;
+  background-color: rgb(212, 212, 226);
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__c{
   
   grid-column-start: 1;
   grid-column-end: 1;
@@ -100,7 +174,7 @@ div{
   border-radius: 10px 20px 30px 40px;
 }
 
-.box__number--expo{
+.box__expo{
   
   grid-column-start: 2;
   grid-column-end: 2;
@@ -114,7 +188,7 @@ div{
   border-radius: 10px 20px 30px 40px;
 }
 
-.box__number--por{
+.box__por{
 
   grid-column-start: 3;
   grid-column-end: 3;
@@ -128,7 +202,7 @@ div{
   border-radius: 10px 20px 30px 40px;
 }
 
-.box__number--sum{
+.box__div{
 
   grid-column-start: 4;
   grid-column-end: 4;
@@ -142,7 +216,7 @@ div{
   border-radius: 10px 20px 30px 40px;
 }
 
-.box__number--same{
+.box__same{
  
   grid-column-start: 3;
   grid-column-end: 5;
@@ -153,5 +227,189 @@ div{
   justify-content: center;
   align-items: center;
   background-color: green;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__point{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 7;
+  grid-row-start: 7;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__cero{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-end: 7;
+  grid-row-start: 7;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__one{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 6;
+  grid-row-start: 6;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__two{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-end: 6;
+  grid-row-start: 6;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__tree{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 6;
+  grid-row-start: 6;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__more{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-end: 6;
+  grid-row-start: 6;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__four{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 5;
+  grid-row-start: 5;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__five{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-end: 5;
+  grid-row-start: 5;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__six{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 5;
+  grid-row-start: 5;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__less{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-end: 5;
+  grid-row-start: 5;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__seven{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 4;
+  grid-row-start: 4;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__eight{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-end: 4;
+  grid-row-start: 4;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__nine{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 4;
+  grid-row-start: 4;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__by{
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-end: 4;
+  grid-row-start: 4;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box__porcent{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 3;
+  grid-row-start: 3;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
   border-radius: 10px 20px 30px 40px;
 }
